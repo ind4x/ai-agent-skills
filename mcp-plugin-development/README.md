@@ -231,10 +231,10 @@ To integrate these skills into an agent workspace or CLI:
 
 ```bash
 # Symlink an individual skill into your agent skills path
-ln -s /home/youssef/skills/mcp-plugin-development/<skill-name> ~/.gemini/skills/<skill-name>
+ln -s ~/skills/mcp-plugin-development/<skill-name> ~/.gemini/skills/<skill-name>
 
 # Or copy into Claude Code project skills
-cp -r /home/youssef/skills/mcp-plugin-development/<skill-name> .claude/skills/
+cp -r ~/skills/mcp-plugin-development/<skill-name> .claude/skills/
 ```
 
 ---

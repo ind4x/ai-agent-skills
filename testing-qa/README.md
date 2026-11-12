@@ -82,10 +82,10 @@ To integrate these skills into an agent workspace or CLI:
 
 ```bash
 # Symlink an individual skill into your agent skills path
-ln -s /home/youssef/skills/testing-qa/<skill-name> ~/.gemini/skills/<skill-name>
+ln -s ~/skills/testing-qa/<skill-name> ~/.gemini/skills/<skill-name>
 
 # Or copy into Claude Code project skills
-cp -r /home/youssef/skills/testing-qa/<skill-name> .claude/skills/
+cp -r ~/skills/testing-qa/<skill-name> .claude/skills/
 ```
 
 ---

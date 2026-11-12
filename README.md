@@ -213,7 +213,7 @@ The complete index of all centralized skills is presented below, organized by fu
 To publish this centralized collection to your GitHub profile:
 
 ```bash
-cd /home/youssef/skills
+cd ~/skills
 git init
 git add .
 git commit -m "feat: initial release of centralized and categorized agent skills library"
@@ -228,10 +228,10 @@ Link individual skills or an entire category into your global Antigravity skills
 
 ```bash
 # Link a single skill
-ln -s /home/youssef/skills/design-ui/impeccable ~/.gemini/skills/impeccable
+ln -s ~/skills/design-ui/impeccable ~/.gemini/skills/impeccable
 
 # Link an entire category
-ln -s /home/youssef/skills/design-ui/* ~/.gemini/skills/
+ln -s ~/skills/design-ui/* ~/.gemini/skills/
 ```
 
 ### 3. Loading into Anthropic Claude Code
@@ -240,7 +240,7 @@ Claude Code supports custom project-level and user-level skills in `.claude/skil
 
 ```bash
 mkdir -p .claude/skills
-cp -r /home/youssef/skills/code-review-refactoring/code-reviewer .claude/skills/
+cp -r ~/skills/code-review-refactoring/code-reviewer .claude/skills/
 ```
 
 ### 4. Loading into CLI Agent Orchestrator (CAO)
@@ -248,7 +248,7 @@ cp -r /home/youssef/skills/code-review-refactoring/code-reviewer .claude/skills/
 Register skills with CAO via its built-in skill management toolchain:
 
 ```bash
-cao skills link /home/youssef/skills/multi-agent-orchestration/cao-workflow
+cao skills link ~/skills/multi-agent-orchestration/cao-workflow
 ```
 
 ### 5. Loading into GitHub Copilot CLI & VSCode Agent
@@ -257,7 +257,7 @@ Place skills in the `.github/skills/` directory of your target repository:
 
 ```bash
 mkdir -p .github/skills
-cp -r /home/youssef/skills/testing-qa/playwright-cli .github/skills/
+cp -r ~/skills/testing-qa/playwright-cli .github/skills/
 ```
 
 ---
