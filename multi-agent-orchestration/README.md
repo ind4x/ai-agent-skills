@@ -182,10 +182,10 @@ To integrate these skills into an agent workspace or CLI:
 
 ```bash
 # Symlink an individual skill into your agent skills path
-ln -s ~/skills/multi-agent-orchestration/<skill-name> ~/.gemini/skills/<skill-name>
+ln -s ~/ai-agent-skills/multi-agent-orchestration/<skill-name> ~/.gemini/skills/<skill-name>
 
 # Or copy into Claude Code project skills
-cp -r ~/skills/multi-agent-orchestration/<skill-name> .claude/skills/
+cp -r ~/ai-agent-skills/multi-agent-orchestration/<skill-name> .claude/skills/
 ```
 
 ---
